@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stock & Production App</title>
+</head>
+<body>
+
+  <h1>📦 Stock Management</h1>
+
+  <form action="/add-stock" method="POST">
+    <input name="material" placeholder="Material" required />
+    <input name="quantity" placeholder="Quantity" type="number" required />
+    <input name="date" type="date" required />
+    <button type="submit">Add Stock</button>
+  </form>
+
+  <hr>
+
+  <h1>🏭 Production</h1>
+
+  <form action="/add-production" method="POST">
+    <input name="product" placeholder="Product" required />
+    <input name="quantity" placeholder="Quantity" type="number" required />
+    <input name="date" type="date" required />
+    <button type="submit">Add Production</button>
+  </form>
+
+</body>
+</html>
